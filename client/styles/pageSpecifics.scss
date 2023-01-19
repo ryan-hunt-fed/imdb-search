@@ -1,0 +1,68 @@
+//MOVIE PAGE
+
+.movie-header{
+  
+    text-align: center;
+    margin: 40px;
+    color: #fff;
+  }
+  
+  
+  //TV PAGE
+  .tv-header{
+    
+    text-align: center;
+    margin: 40px;
+    color: #fff;
+  }
+  
+    //BOXOFFICE PAGE
+  
+    .box-header{
+      // font-size: 20px;
+      text-align: center;
+      margin: 40px;
+      color: #fff;
+    }
+    
+    .all-box-office-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 40px;
+      // margin-bottom: 550px;
+    }
+  
+    .all-box-office-items{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: flex-start;
+      margin: 0px 90px;
+      // margin-bottom: 150px;
+      padding: 35px;
+      background-color: rgb(142, 142, 142);
+      border-bottom: 0.5px solid #fff;
+      transition: 1s ease-in-out;
+    }
+  
+    .all-box-office-items:hover{
+      background-color: rgb(172, 207, 209);
+    }
+  
+    //THEATRES PAGE
+    .coming-title{
+      // color: white;
+      // font-size: 20px;
+      text-align: center;
+      margin: 40px;
+      color: #fff;
+    }
+  
+    .theatre-title{
+      // color: white;
+      // font-size: 20px;
+      text-align: center;
+      margin: 40px;
+      color: #fff;
+    }
