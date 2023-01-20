@@ -65,7 +65,7 @@ function TvSearch() {
                                                     <h2>{tv?.title}</h2>
                                                     <p><strong>Rank:</strong> {tv?.rank}</p>
                                                     <p><strong>Rating:</strong> {tv?.imDbRating}/10</p>
-                                                    <p><strong>Crew:</strong> {tv?.crew}</p>
+                                                    <p><strong>Cast:</strong> {tv?.crew}</p>
                                                     <p><strong>Year Released:</strong> {tv?.year}</p>
                                                 </div>
                                             </div>
