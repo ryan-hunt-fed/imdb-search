@@ -12,6 +12,12 @@ function MovieSearch() {
     // const [getData, setGetData] = useState('')
     // const [recieveData, setRecieveData] = useState([])
     const [topMovies, setTopMovies] = useState([])
+    // const [loading, setLoading] = useState(false)
+
+
+
+
+
 
 
 
@@ -28,9 +34,11 @@ function MovieSearch() {
     // }
 
     async function topFilms() {
+        // setLoading(true)
         const topList = await popularMovies()
         setTopMovies(topList)
         console.log(topMovies)
+        // setLoading(false)
     }
 
     useEffect(() => {
@@ -52,6 +60,9 @@ function MovieSearch() {
                     {/* <button onClick={topFilms}>top films</button> */}
 
                     <div className='media-container'>
+                        {/* <div>
+                            <img className='loader' alt='loader' src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/09b24e31234507.564a1d23c07b4.gif' />
+                        </div> */}
                         {topMovies.map((movie, idx) => {
                             return (
                                 <>
